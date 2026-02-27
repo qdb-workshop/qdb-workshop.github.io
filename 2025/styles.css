@@ -1,0 +1,174 @@
+/*
+    Color Scheme:
+    #7D1935 (Dark Red)
+    #4A96AD (Light Blue)
+    #F5F3EE (Light Gray)
+    #FFFFFF (White)
+*/
+
+html, body {
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    background-color: #F5F3EE;
+    color: #333;
+    line-height: 1.6em !important;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    background-color: #ad4a4a;
+    color: #FFFFFF;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: 800;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 0.5em 0 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #7D1935;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #ad4a4a;
+    font-size: 1.8em;
+    font-weight: 800;
+    margin-bottom: 1em;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+/* Links */
+a:link, a:visited, a:active {
+    color: #7D1935 !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7D1935 !important;
+    text-decoration: underline;
+}
+
+a.internal {
+    color: #d56103 !important;
+}
+
+a.internal:hover {
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #4A96AD;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (min-width: 992px) {
+    .stitle {
+        text-align: right;
+    }
+
+    .simage {
+        float: right;
+        margin-bottom: 0 !important;
+    }
+}
+
+/* Utility Classes */
+.row {
+    margin-top: 20px;
+    max-width: 1400px;
+    margin-left: 0.25em !important;
+    margin-right: 0.25em !important;
+}
+
+.htitle {
+    color: #4A96AD !important;
+    font-size: 1.25em;
+    line-height: 0.95em;
+    text-decoration: none !important;
+}
+
+.stitle {
+    margin-bottom: 0.35em;
+    color: #4A96AD;
+    font-size: 1.4em;
+    font-weight: 800;
+    margin-right: 0.5em;
+}
+
+.simage {
+    margin-bottom: 10px;
+}
+
+.bunch {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.circle {
+    display: block;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50px; /* or 50% */
+    background-color: white;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
